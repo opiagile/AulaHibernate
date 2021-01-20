@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="Pessoa" table="PESSOA">
+    <id name="id" column="PES_ID">
+      <generator class="sequence"/>
+    </id>      
+    <property name="dataNascimento"  column="PES_DATANASC"/>
+    <property name="nome" column="PES_NOME" not-null="true"/>
+    <property name="sexo" column="PES_SEXO"/>
+    <set name="events" table="PESSOA_EVENT">
+      <key column="PES_ID"/>
+      <many-to-many column="EVENT_ID" class="Event"/>
+    </set>
+        
+	<set name="telefones"
+	     lazy="true"
+	     table="PESSOA_TELEFONE">
+	     <key column="PES_ID"/>
+	     <composite-element class="Telefones">
+	        <property name="numero" column="NUMERO" 
+                  not-null="true"/>
+	        <property name="tipo" column="tipo"/>
+	     </composite-element>
+	</set>
+
+  </class>
+</hibernate-mapping>
+

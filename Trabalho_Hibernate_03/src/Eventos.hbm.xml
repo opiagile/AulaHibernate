@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="Eventos" table="EVENTOS">
+    <id column="EVENTO_ID" name="id">
+      <generator class="increment"/>
+    </id>
+    <property column="TITULO" name="titulo" type="string"/>
+    <property column="CALENDAR" name="calendar" type="timestamp"/>
+    <property column="ENDERECO" name="endereco" type="string"/>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="Pessoa" table="PESSOAS">
+    <id column="PESSOA_ID" name="id">
+      <generator class="increment"/>
+    </id>
+    <property column="NOME" name="nome" type="string"/>
+    <property column="SEXO" name="sexo" type="string"/>
+    <property column="DATA_NASCIMENTO" name="data_nascimento" type="timestamp"/>
+    <set name="Eventos" table="PESSOA_EVENTO">
+      <key column="PESSOA_ID"/>
+      <many-to-many column="EVENTO_ID" class="Eventos"/>
+    </set>
+    <set name="Palestras" table="PESSOA_PALESTRA">
+      <key column="PESSOA_ID"/>
+      <many-to-many column="PALESTRA_ID" class="Palestras"/>
+    </set>
+    <set name="Telefone" table="PESSOA_TELEFONE">
+      <key column="PESSOA_ID"/>
+      <many-to-many column="TELEFONE_ID" class="Telefone"/>
+    </set>    
+ 	<set name="Email"
+	     lazy="true"
+	     table="PESSOA_EMAIL">
+	     <key column="PESSOA_ID"/>
+	     <composite-element class="Email">
+	        <property name="email" column="EMAIL" 
+                  not-null="true"/>
+	     </composite-element>
+	</set>   
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,145 @@
+15:09:12,500  INFO Environment:479 - Hibernate 3.1.3
+15:09:12,515  INFO Environment:509 - hibernate.properties not found
+15:09:12,515  INFO Environment:525 - using CGLIB reflection optimizer
+15:09:12,515  INFO Environment:555 - using JDK 1.4 java.sql.Timestamp handling
+15:09:12,578  INFO Configuration:1308 - configuring from resource: /hibernate.cfg.xml
+15:09:12,578  INFO Configuration:1285 - Configuration resource: /hibernate.cfg.xml
+15:09:12,687  INFO Configuration:469 - Reading mappings from resource: Estado.hbm.xml
+15:09:12,796  INFO HbmBinder:309 - Mapping class: exemploestadolista.Estado -> Estados
+15:09:12,828  INFO Configuration:1419 - Configured SessionFactory: null
+15:09:12,906  INFO DriverManagerConnectionProvider:41 - Using Hibernate built-in connection pool (not for production use!)
+15:09:12,906  INFO DriverManagerConnectionProvider:42 - Hibernate connection pool size: 1
+15:09:12,906  INFO DriverManagerConnectionProvider:45 - autocommit mode: false
+15:09:12,906  INFO DriverManagerConnectionProvider:80 - using driver: org.postgresql.Driver at URL: jdbc:postgresql:postgres
+15:09:12,906  INFO DriverManagerConnectionProvider:86 - connection properties: {user=postgres, password=****}
+15:09:13,140  INFO SettingsFactory:77 - RDBMS: PostgreSQL, version: 8.1.3
+15:09:13,140  INFO SettingsFactory:78 - JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 8.1 JDBC2 with NO SSL (build 404)
+15:09:13,156  INFO Dialect:103 - Using dialect: org.hibernate.dialect.PostgreSQLDialect
+15:09:13,156  INFO TransactionFactoryFactory:31 - Using default transaction strategy (direct JDBC transactions)
+15:09:13,171  INFO TransactionManagerLookupFactory:33 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+15:09:13,171  INFO SettingsFactory:125 - Automatic flush during beforeCompletion(): disabled
+15:09:13,171  INFO SettingsFactory:129 - Automatic session close at end of transaction: disabled
+15:09:13,171  INFO SettingsFactory:136 - JDBC batch size: 15
+15:09:13,171  INFO SettingsFactory:139 - JDBC batch updates for versioned data: disabled
+15:09:13,171  INFO SettingsFactory:144 - Scrollable result sets: enabled
+15:09:13,171  INFO SettingsFactory:152 - JDBC3 getGeneratedKeys(): disabled
+15:09:13,171  INFO SettingsFactory:160 - Connection release mode: auto
+15:09:13,171  INFO SettingsFactory:187 - Default batch fetch size: 1
+15:09:13,171  INFO SettingsFactory:191 - Generate SQL with comments: disabled
+15:09:13,171  INFO SettingsFactory:195 - Order SQL updates by primary key: disabled
+15:09:13,171  INFO SettingsFactory:338 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+15:09:13,171  INFO ASTQueryTranslatorFactory:24 - Using ASTQueryTranslatorFactory
+15:09:13,171  INFO SettingsFactory:203 - Query language substitutions: {}
+15:09:13,187  INFO SettingsFactory:209 - Second-level cache: enabled
+15:09:13,187  INFO SettingsFactory:213 - Query cache: disabled
+15:09:13,187  INFO SettingsFactory:325 - Cache provider: org.hibernate.cache.EhCacheProvider
+15:09:13,187  INFO SettingsFactory:228 - Optimize cache for minimal puts: disabled
+15:09:13,187  INFO SettingsFactory:237 - Structured second-level cache entries: disabled
+15:09:13,187  INFO SettingsFactory:264 - Statistics: disabled
+15:09:13,187  INFO SettingsFactory:268 - Deleted entity synthetic identifier rollback: disabled
+15:09:13,187  INFO SettingsFactory:283 - Default entity-mode: pojo
+15:09:13,234  INFO SessionFactoryImpl:154 - building session factory
+15:09:13,234  WARN Configurator:126 - No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/C:/apl/hibernate-3.1/minLib/ehcache-1.1.jar!/ehcache-failsafe.xml
+15:09:13,546  INFO SessionFactoryObjectFactory:82 - Not binding factory to JNDI, no JNDI name configured
+15:09:13,546  INFO SchemaValidator:98 - Running schema validator
+15:09:13,546  INFO SchemaValidator:106 - fetching database metadata
+15:09:13,703  INFO TableMetadata:40 - table found: public.estados
+15:09:13,703  INFO TableMetadata:41 - columns: [nome, sigla, ibge, area]
+15:09:37,312  INFO Environment:479 - Hibernate 3.1.3
+15:09:37,328  INFO Environment:509 - hibernate.properties not found
+15:09:37,328  INFO Environment:525 - using CGLIB reflection optimizer
+15:09:37,328  INFO Environment:555 - using JDK 1.4 java.sql.Timestamp handling
+15:09:37,375  INFO Configuration:1308 - configuring from resource: /hibernate.cfg.xml
+15:09:37,375  INFO Configuration:1285 - Configuration resource: /hibernate.cfg.xml
+15:09:37,500  INFO Configuration:469 - Reading mappings from resource: Estado.hbm.xml
+15:09:37,593  INFO HbmBinder:309 - Mapping class: exemploestadolista.Estado -> Estados
+15:09:37,625  INFO Configuration:1419 - Configured SessionFactory: null
+15:09:37,687  INFO DriverManagerConnectionProvider:41 - Using Hibernate built-in connection pool (not for production use!)
+15:09:37,687  INFO DriverManagerConnectionProvider:42 - Hibernate connection pool size: 1
+15:09:37,687  INFO DriverManagerConnectionProvider:45 - autocommit mode: false
+15:09:37,703  INFO DriverManagerConnectionProvider:80 - using driver: org.postgresql.Driver at URL: jdbc:postgresql:postgres
+15:09:37,703  INFO DriverManagerConnectionProvider:86 - connection properties: {user=postgres, password=****}
+15:09:38,000  INFO SettingsFactory:77 - RDBMS: PostgreSQL, version: 8.1.3
+15:09:38,000  INFO SettingsFactory:78 - JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 8.1 JDBC2 with NO SSL (build 404)
+15:09:38,015  INFO Dialect:103 - Using dialect: org.hibernate.dialect.PostgreSQLDialect
+15:09:38,031  INFO TransactionFactoryFactory:31 - Using default transaction strategy (direct JDBC transactions)
+15:09:38,031  INFO TransactionManagerLookupFactory:33 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+15:09:38,031  INFO SettingsFactory:125 - Automatic flush during beforeCompletion(): disabled
+15:09:38,031  INFO SettingsFactory:129 - Automatic session close at end of transaction: disabled
+15:09:38,031  INFO SettingsFactory:136 - JDBC batch size: 15
+15:09:38,031  INFO SettingsFactory:139 - JDBC batch updates for versioned data: disabled
+15:09:38,031  INFO SettingsFactory:144 - Scrollable result sets: enabled
+15:09:38,031  INFO SettingsFactory:152 - JDBC3 getGeneratedKeys(): disabled
+15:09:38,031  INFO SettingsFactory:160 - Connection release mode: auto
+15:09:38,031  INFO SettingsFactory:187 - Default batch fetch size: 1
+15:09:38,031  INFO SettingsFactory:191 - Generate SQL with comments: disabled
+15:09:38,031  INFO SettingsFactory:195 - Order SQL updates by primary key: disabled
+15:09:38,031  INFO SettingsFactory:338 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+15:09:38,046  INFO ASTQueryTranslatorFactory:24 - Using ASTQueryTranslatorFactory
+15:09:38,046  INFO SettingsFactory:203 - Query language substitutions: {}
+15:09:38,046  INFO SettingsFactory:209 - Second-level cache: enabled
+15:09:38,046  INFO SettingsFactory:213 - Query cache: disabled
+15:09:38,046  INFO SettingsFactory:325 - Cache provider: org.hibernate.cache.EhCacheProvider
+15:09:38,046  INFO SettingsFactory:228 - Optimize cache for minimal puts: disabled
+15:09:38,046  INFO SettingsFactory:237 - Structured second-level cache entries: disabled
+15:09:38,046  INFO SettingsFactory:264 - Statistics: disabled
+15:09:38,046  INFO SettingsFactory:268 - Deleted entity synthetic identifier rollback: disabled
+15:09:38,046  INFO SettingsFactory:283 - Default entity-mode: pojo
+15:09:38,093  INFO SessionFactoryImpl:154 - building session factory
+15:09:38,109  WARN Configurator:126 - No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/C:/apl/hibernate-3.1/minLib/ehcache-1.1.jar!/ehcache-failsafe.xml
+15:09:38,406  INFO SessionFactoryObjectFactory:82 - Not binding factory to JNDI, no JNDI name configured
+15:09:38,406  INFO SchemaValidator:98 - Running schema validator
+15:09:38,406  INFO SchemaValidator:106 - fetching database metadata
+15:09:38,484  INFO TableMetadata:40 - table found: public.estados
+15:09:38,500  INFO TableMetadata:41 - columns: [nome, sigla, ibge, area]
+15:09:46,359  INFO Environment:479 - Hibernate 3.1.3
+15:09:46,375  INFO Environment:509 - hibernate.properties not found
+15:09:46,375  INFO Environment:525 - using CGLIB reflection optimizer
+15:09:46,375  INFO Environment:555 - using JDK 1.4 java.sql.Timestamp handling
+15:09:46,437  INFO Configuration:1308 - configuring from resource: /hibernate.cfg.xml
+15:09:46,437  INFO Configuration:1285 - Configuration resource: /hibernate.cfg.xml
+15:09:46,562  INFO Configuration:469 - Reading mappings from resource: Estado.hbm.xml
+15:09:46,671  INFO HbmBinder:309 - Mapping class: exemploestadolista.Estado -> Estados
+15:09:46,703  INFO Configuration:1419 - Configured SessionFactory: null
+15:09:46,765  INFO DriverManagerConnectionProvider:41 - Using Hibernate built-in connection pool (not for production use!)
+15:09:46,765  INFO DriverManagerConnectionProvider:42 - Hibernate connection pool size: 1
+15:09:46,765  INFO DriverManagerConnectionProvider:45 - autocommit mode: false
+15:09:46,765  INFO DriverManagerConnectionProvider:80 - using driver: org.postgresql.Driver at URL: jdbc:postgresql:postgres
+15:09:46,765  INFO DriverManagerConnectionProvider:86 - connection properties: {user=postgres, password=****}
+15:09:46,984  INFO SettingsFactory:77 - RDBMS: PostgreSQL, version: 8.1.3
+15:09:46,984  INFO SettingsFactory:78 - JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 8.1 JDBC2 with NO SSL (build 404)
+15:09:47,000  INFO Dialect:103 - Using dialect: org.hibernate.dialect.PostgreSQLDialect
+15:09:47,000  INFO TransactionFactoryFactory:31 - Using default transaction strategy (direct JDBC transactions)
+15:09:47,015  INFO TransactionManagerLookupFactory:33 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+15:09:47,015  INFO SettingsFactory:125 - Automatic flush during beforeCompletion(): disabled
+15:09:47,015  INFO SettingsFactory:129 - Automatic session close at end of transaction: disabled
+15:09:47,015  INFO SettingsFactory:136 - JDBC batch size: 15
+15:09:47,015  INFO SettingsFactory:139 - JDBC batch updates for versioned data: disabled
+15:09:47,015  INFO SettingsFactory:144 - Scrollable result sets: enabled
+15:09:47,015  INFO SettingsFactory:152 - JDBC3 getGeneratedKeys(): disabled
+15:09:47,015  INFO SettingsFactory:160 - Connection release mode: auto
+15:09:47,015  INFO SettingsFactory:187 - Default batch fetch size: 1
+15:09:47,015  INFO SettingsFactory:191 - Generate SQL with comments: disabled
+15:09:47,015  INFO SettingsFactory:195 - Order SQL updates by primary key: disabled
+15:09:47,015  INFO SettingsFactory:338 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+15:09:47,015  INFO ASTQueryTranslatorFactory:24 - Using ASTQueryTranslatorFactory
+15:09:47,015  INFO SettingsFactory:203 - Query language substitutions: {}
+15:09:47,015  INFO SettingsFactory:209 - Second-level cache: enabled
+15:09:47,015  INFO SettingsFactory:213 - Query cache: disabled
+15:09:47,015  INFO SettingsFactory:325 - Cache provider: org.hibernate.cache.EhCacheProvider
+15:09:47,031  INFO SettingsFactory:228 - Optimize cache for minimal puts: disabled
+15:09:47,031  INFO SettingsFactory:237 - Structured second-level cache entries: disabled
+15:09:47,031  INFO SettingsFactory:264 - Statistics: disabled
+15:09:47,031  INFO SettingsFactory:268 - Deleted entity synthetic identifier rollback: disabled
+15:09:47,031  INFO SettingsFactory:283 - Default entity-mode: pojo
+15:09:47,078  INFO SessionFactoryImpl:154 - building session factory
+15:09:47,078  WARN Configurator:126 - No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/C:/apl/hibernate-3.1/minLib/ehcache-1.1.jar!/ehcache-failsafe.xml
+15:09:47,375  INFO SessionFactoryObjectFactory:82 - Not binding factory to JNDI, no JNDI name configured
+15:09:47,375  INFO SchemaUpdate:115 - Running hbm2ddl schema update
+15:09:47,375  INFO SchemaUpdate:126 - fetching database metadata
+15:09:47,406  INFO SchemaUpdate:138 - updating schema
+15:09:47,687  INFO TableMetadata:40 - table found: public.estados
+15:09:47,687  INFO TableMetadata:41 - columns: [nome, sigla, ibge, area]
+15:09:47,687  INFO TableMetadata:43 - foreign keys: []
+15:09:47,687  INFO TableMetadata:44 - indexes: []
+15:09:47,687  INFO SchemaUpdate:160 - schema update complete

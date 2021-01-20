@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="trabalhohibernate4.Municipio" table="municipios">
+    <id name="ibge" column="IBGE">
+    </id>
+    <property name="uf"/>
+    <property name="nome"/>
+    <property name="area"/>
+    <many-to-one column="IBGE" name="estado" class="trabalhohibernate4.Estado" insert="false"  update="false" fetch="select"/>
+            
+    </class>
+</hibernate-mapping>
